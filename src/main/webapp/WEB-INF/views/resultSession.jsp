@@ -7,9 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-	close.jsp
-	<script type="text/javascript">
-		window.close()
-	</script>
+	세션 확인<br>
+	id : ${ requestScope.id }<br>
+	id : ${ id }<br>
+	name : ${ name}<hr>
+	<a href="delSession">삭제 세션</a>
 </body>
 </html>

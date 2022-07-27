@@ -7,8 +7,12 @@
 <title>Insert title here</title>
 </head>
 <body>
+	세션 삭제<br>
+	id : ${ requestScope.id }<br>
+	id : ${ id }<br>
+	name : ${ name}<hr>
+	<a href="resultSession">확인 세션</a>
+	<a href="makeSession">생성 세션</a>
 
-	cookie.jsp<br>
-	
 </body>
 </html>

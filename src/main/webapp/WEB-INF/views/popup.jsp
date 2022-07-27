@@ -7,9 +7,16 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h3>쿠키를 위한 팝업창입니다</h3>
-	<br><br><br><br>
-	<input type="checkbox" onclick="location.href='close'">하루동안 열지 않음
+	<script type="text/javascript">
+		function chk() {
+			location.href = "chk"
+			window.close()
+			// 또는 close();
+		}
+	</script>
 
+	popup.jsp<br>
+	<br><br><br><br><br><br>
+	<input type="checkbox" onclick="chk()">하루동안 열지 않음
 </body>
 </html>
